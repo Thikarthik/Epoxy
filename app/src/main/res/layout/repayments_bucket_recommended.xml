@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingBottom="16dp"
+    android:background="#FFFCDF">
+
+    <CheckBox
+        android:id="@+id/cb_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        />
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_repay_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       app:layout_constraintStart_toEndOf="@id/cb_check"
+        app:layout_constraintTop_toTopOf="@id/cb_check"
+        android:layout_marginTop="12dp"
+        android:text="Repay $800"
+        android:textSize="15sp"
+        android:textColor="#212121"
+        android:fontFamily="@font/inter_bold"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_recommended"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/bg_rect_round_red"
+        android:fontFamily="@font/inter_bold"
+        android:paddingLeft="6dp"
+        android:paddingTop="2dp"
+        android:paddingRight="6dp"
+        android:paddingBottom="2dp"
+        android:letterSpacing="0.04"
+        android:text="RECOMENDED"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@id/tv_repay_amount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_repay_amount" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constrainedWidth="true"
+        android:text="Pay ₹800 NOW, penalty of ₹400 \napplicable in 5 days or less"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/tv_repay_amount"
+        app:layout_constraintTop_toBottomOf="@id/tv_repay_amount"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

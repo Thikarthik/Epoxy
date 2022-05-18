@@ -1,0 +1,53 @@
+{
+  "data": {
+    "totalCredit": 200000.0,
+    "availableCredit": 187416.0,
+    "outstandingAmount": 464.79,
+    "creditZones": [
+      {
+        "displayName": "0-45 Days",
+        "amount": 464.79,
+        "tip": "Next repayment due on 26 Mar 2022",
+        "backgroundColor": "#DDFFE0",
+        "displayNameColor": "#28A144",
+        "logoUrl": {},
+        "startDate": 1646048158,
+        "endDate": 1649936158
+      },
+      {
+        "displayName": "46-60 Days",
+        "amount": 0,
+        "tip": "Pay now to avoid CIBIL impact",
+        "backgroundColor": "#FFF3DF",
+        "displayNameColor": "#E76B0F",
+        "logoUrl": {},
+        "startDate": 1644752158,
+        "endDate": 1645961758
+      },
+      {
+        "displayName": "Above 60 Days",
+        "amount": 0,
+        "tip": "Pay now to avoid CIBIL impact",
+        "backgroundColor": "#FFE5E6",
+        "displayNameColor": "#D1343E",
+        "logoUrl": {},
+        "startDate": 0,
+        "endDate": 1644665758
+      }
+    ],
+    "tip": {
+      "message": "Next repayment due on 26 Mar 2022",
+      "logoUrl": {}
+    },
+    "recommended": {
+      "displayName": "Recommended",
+      "amount": 464.79,
+      "tip": "Pay now to avoid CIBIL impact",
+      "backgroundColor": "#FFFCDF",
+      "displayNameColor": "#212121",
+      "logoUrl": null,
+      "startDate": null,
+      "endDate": null
+    }
+  }
+}
